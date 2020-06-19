@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
-  max-width: 64em;
+  max-width: 52em;
   -webkit-font-smoothing: antialiased;
 
   @media (min-width: 820px) {
@@ -110,7 +110,7 @@ ul {
     "side";
 
   @media (min-width: 700px) {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1.5fr;
     grid-template-areas: "content side";
   }
 }
